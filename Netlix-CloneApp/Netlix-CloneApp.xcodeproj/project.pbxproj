@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61DBE504289953FA00BF0E49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DBE503289953FA00BF0E49 /* AppDelegate.swift */; };
+		61DBE506289953FA00BF0E49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DBE505289953FA00BF0E49 /* SceneDelegate.swift */; };
+		61DBE508289953FA00BF0E49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DBE507289953FA00BF0E49 /* ViewController.swift */; };
+		61DBE50B289953FA00BF0E49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61DBE509289953FA00BF0E49 /* Main.storyboard */; };
+		61DBE50E289953FA00BF0E49 /* Netlix_CloneApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61DBE50C289953FA00BF0E49 /* Netlix_CloneApp.xcdatamodeld */; };
+		61DBE510289953FA00BF0E49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61DBE50F289953FA00BF0E49 /* Assets.xcassets */; };
+		61DBE513289953FA00BF0E49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61DBE511289953FA00BF0E49 /* LaunchScreen.storyboard */; };
+		61DBE51E289953FA00BF0E49 /* Netlix_CloneAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DBE51D289953FA00BF0E49 /* Netlix_CloneAppTests.swift */; };
+		61DBE528289953FA00BF0E49 /* Netlix_CloneAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DBE527289953FA00BF0E49 /* Netlix_CloneAppUITests.swift */; };
+		61DBE52A289953FA00BF0E49 /* Netlix_CloneAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DBE529289953FA00BF0E49 /* Netlix_CloneAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61DBE51A289953FA00BF0E49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61DBE4F8289953FA00BF0E49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61DBE4FF289953FA00BF0E49;
+			remoteInfo = "Netlix-CloneApp";
+		};
+		61DBE524289953FA00BF0E49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61DBE4F8289953FA00BF0E49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61DBE4FF289953FA00BF0E49;
+			remoteInfo = "Netlix-CloneApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61DBE500289953FA00BF0E49 /* Netlix-CloneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netlix-CloneApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61DBE503289953FA00BF0E49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61DBE505289953FA00BF0E49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		61DBE507289953FA00BF0E49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61DBE50A289953FA00BF0E49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61DBE50D289953FA00BF0E49 /* Netlix_CloneApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Netlix_CloneApp.xcdatamodel; sourceTree = "<group>"; };
+		61DBE50F289953FA00BF0E49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61DBE512289953FA00BF0E49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61DBE514289953FA00BF0E49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61DBE519289953FA00BF0E49 /* Netlix-CloneAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Netlix-CloneAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61DBE51D289953FA00BF0E49 /* Netlix_CloneAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netlix_CloneAppTests.swift; sourceTree = "<group>"; };
+		61DBE523289953FA00BF0E49 /* Netlix-CloneAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Netlix-CloneAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61DBE527289953FA00BF0E49 /* Netlix_CloneAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netlix_CloneAppUITests.swift; sourceTree = "<group>"; };
+		61DBE529289953FA00BF0E49 /* Netlix_CloneAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netlix_CloneAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61DBE4FD289953FA00BF0E49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61DBE516289953FA00BF0E49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61DBE520289953FA00BF0E49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61DBE4F7289953FA00BF0E49 = {
+			isa = PBXGroup;
+			children = (
+				61DBE502289953FA00BF0E49 /* Netlix-CloneApp */,
+				61DBE51C289953FA00BF0E49 /* Netlix-CloneAppTests */,
+				61DBE526289953FA00BF0E49 /* Netlix-CloneAppUITests */,
+				61DBE501289953FA00BF0E49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61DBE501289953FA00BF0E49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61DBE500289953FA00BF0E49 /* Netlix-CloneApp.app */,
+				61DBE519289953FA00BF0E49 /* Netlix-CloneAppTests.xctest */,
+				61DBE523289953FA00BF0E49 /* Netlix-CloneAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61DBE502289953FA00BF0E49 /* Netlix-CloneApp */ = {
+			isa = PBXGroup;
+			children = (
+				61DBE503289953FA00BF0E49 /* AppDelegate.swift */,
+				61DBE505289953FA00BF0E49 /* SceneDelegate.swift */,
+				61DBE507289953FA00BF0E49 /* ViewController.swift */,
+				61DBE509289953FA00BF0E49 /* Main.storyboard */,
+				61DBE50F289953FA00BF0E49 /* Assets.xcassets */,
+				61DBE511289953FA00BF0E49 /* LaunchScreen.storyboard */,
+				61DBE514289953FA00BF0E49 /* Info.plist */,
+				61DBE50C289953FA00BF0E49 /* Netlix_CloneApp.xcdatamodeld */,
+			);
+			path = "Netlix-CloneApp";
+			sourceTree = "<group>";
+		};
+		61DBE51C289953FA00BF0E49 /* Netlix-CloneAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				61DBE51D289953FA00BF0E49 /* Netlix_CloneAppTests.swift */,
+			);
+			path = "Netlix-CloneAppTests";
+			sourceTree = "<group>";
+		};
+		61DBE526289953FA00BF0E49 /* Netlix-CloneAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61DBE527289953FA00BF0E49 /* Netlix_CloneAppUITests.swift */,
+				61DBE529289953FA00BF0E49 /* Netlix_CloneAppUITestsLaunchTests.swift */,
+			);
+			path = "Netlix-CloneAppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61DBE4FF289953FA00BF0E49 /* Netlix-CloneApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61DBE52D289953FA00BF0E49 /* Build configuration list for PBXNativeTarget "Netlix-CloneApp" */;
+			buildPhases = (
+				61DBE4FC289953FA00BF0E49 /* Sources */,
+				61DBE4FD289953FA00BF0E49 /* Frameworks */,
+				61DBE4FE289953FA00BF0E49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Netlix-CloneApp";
+			productName = "Netlix-CloneApp";
+			productReference = 61DBE500289953FA00BF0E49 /* Netlix-CloneApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61DBE518289953FA00BF0E49 /* Netlix-CloneAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61DBE530289953FA00BF0E49 /* Build configuration list for PBXNativeTarget "Netlix-CloneAppTests" */;
+			buildPhases = (
+				61DBE515289953FA00BF0E49 /* Sources */,
+				61DBE516289953FA00BF0E49 /* Frameworks */,
+				61DBE517289953FA00BF0E49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61DBE51B289953FA00BF0E49 /* PBXTargetDependency */,
+			);
+			name = "Netlix-CloneAppTests";
+			productName = "Netlix-CloneAppTests";
+			productReference = 61DBE519289953FA00BF0E49 /* Netlix-CloneAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61DBE522289953FA00BF0E49 /* Netlix-CloneAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61DBE533289953FA00BF0E49 /* Build configuration list for PBXNativeTarget "Netlix-CloneAppUITests" */;
+			buildPhases = (
+				61DBE51F289953FA00BF0E49 /* Sources */,
+				61DBE520289953FA00BF0E49 /* Frameworks */,
+				61DBE521289953FA00BF0E49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61DBE525289953FA00BF0E49 /* PBXTargetDependency */,
+			);
+			name = "Netlix-CloneAppUITests";
+			productName = "Netlix-CloneAppUITests";
+			productReference = 61DBE523289953FA00BF0E49 /* Netlix-CloneAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61DBE4F8289953FA00BF0E49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					61DBE4FF289953FA00BF0E49 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					61DBE518289953FA00BF0E49 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 61DBE4FF289953FA00BF0E49;
+					};
+					61DBE522289953FA00BF0E49 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 61DBE4FF289953FA00BF0E49;
+					};
+				};
+			};
+			buildConfigurationList = 61DBE4FB289953FA00BF0E49 /* Build configuration list for PBXProject "Netlix-CloneApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61DBE4F7289953FA00BF0E49;
+			productRefGroup = 61DBE501289953FA00BF0E49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61DBE4FF289953FA00BF0E49 /* Netlix-CloneApp */,
+				61DBE518289953FA00BF0E49 /* Netlix-CloneAppTests */,
+				61DBE522289953FA00BF0E49 /* Netlix-CloneAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61DBE4FE289953FA00BF0E49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61DBE513289953FA00BF0E49 /* LaunchScreen.storyboard in Resources */,
+				61DBE510289953FA00BF0E49 /* Assets.xcassets in Resources */,
+				61DBE50B289953FA00BF0E49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61DBE517289953FA00BF0E49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61DBE521289953FA00BF0E49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61DBE4FC289953FA00BF0E49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61DBE508289953FA00BF0E49 /* ViewController.swift in Sources */,
+				61DBE50E289953FA00BF0E49 /* Netlix_CloneApp.xcdatamodeld in Sources */,
+				61DBE504289953FA00BF0E49 /* AppDelegate.swift in Sources */,
+				61DBE506289953FA00BF0E49 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61DBE515289953FA00BF0E49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61DBE51E289953FA00BF0E49 /* Netlix_CloneAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61DBE51F289953FA00BF0E49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61DBE52A289953FA00BF0E49 /* Netlix_CloneAppUITestsLaunchTests.swift in Sources */,
+				61DBE528289953FA00BF0E49 /* Netlix_CloneAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61DBE51B289953FA00BF0E49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61DBE4FF289953FA00BF0E49 /* Netlix-CloneApp */;
+			targetProxy = 61DBE51A289953FA00BF0E49 /* PBXContainerItemProxy */;
+		};
+		61DBE525289953FA00BF0E49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61DBE4FF289953FA00BF0E49 /* Netlix-CloneApp */;
+			targetProxy = 61DBE524289953FA00BF0E49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61DBE509289953FA00BF0E49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61DBE50A289953FA00BF0E49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61DBE511289953FA00BF0E49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61DBE512289953FA00BF0E49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61DBE52B289953FA00BF0E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61DBE52C289953FA00BF0E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61DBE52E289953FA00BF0E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y6FAW84Z7Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Netlix-CloneApp/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "myProject.Netlix-CloneApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61DBE52F289953FA00BF0E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y6FAW84Z7Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Netlix-CloneApp/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "myProject.Netlix-CloneApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		61DBE531289953FA00BF0E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y6FAW84Z7Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "myProject.Netlix-CloneAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Netlix-CloneApp.app/Netlix-CloneApp";
+			};
+			name = Debug;
+		};
+		61DBE532289953FA00BF0E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y6FAW84Z7Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "myProject.Netlix-CloneAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Netlix-CloneApp.app/Netlix-CloneApp";
+			};
+			name = Release;
+		};
+		61DBE534289953FA00BF0E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y6FAW84Z7Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "myProject.Netlix-CloneAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Netlix-CloneApp";
+			};
+			name = Debug;
+		};
+		61DBE535289953FA00BF0E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y6FAW84Z7Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "myProject.Netlix-CloneAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Netlix-CloneApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61DBE4FB289953FA00BF0E49 /* Build configuration list for PBXProject "Netlix-CloneApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61DBE52B289953FA00BF0E49 /* Debug */,
+				61DBE52C289953FA00BF0E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61DBE52D289953FA00BF0E49 /* Build configuration list for PBXNativeTarget "Netlix-CloneApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61DBE52E289953FA00BF0E49 /* Debug */,
+				61DBE52F289953FA00BF0E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61DBE530289953FA00BF0E49 /* Build configuration list for PBXNativeTarget "Netlix-CloneAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61DBE531289953FA00BF0E49 /* Debug */,
+				61DBE532289953FA00BF0E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61DBE533289953FA00BF0E49 /* Build configuration list for PBXNativeTarget "Netlix-CloneAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61DBE534289953FA00BF0E49 /* Debug */,
+				61DBE535289953FA00BF0E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		61DBE50C289953FA00BF0E49 /* Netlix_CloneApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				61DBE50D289953FA00BF0E49 /* Netlix_CloneApp.xcdatamodel */,
+			);
+			currentVersion = 61DBE50D289953FA00BF0E49 /* Netlix_CloneApp.xcdatamodel */;
+			path = Netlix_CloneApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 61DBE4F8289953FA00BF0E49 /* Project object */;
+}
