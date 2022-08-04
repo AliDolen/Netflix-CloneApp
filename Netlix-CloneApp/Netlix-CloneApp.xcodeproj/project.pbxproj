@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61338EED289BA79A00D5D00B /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61338EEC289BA79A00D5D00B /* MovieResponse.swift */; };
+		61338EEF289BA99200D5D00B /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61338EEE289BA99200D5D00B /* MovieModel.swift */; };
+		614254E5289AB5CE00CAA465 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614254E4289AB5CE00CAA465 /* NetworkService.swift */; };
+		614254E7289AED1600CAA465 /* NetworkServiceEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614254E6289AED1600CAA465 /* NetworkServiceEndpoint.swift */; };
 		61DBE504289953FA00BF0E49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DBE503289953FA00BF0E49 /* AppDelegate.swift */; };
 		61DBE506289953FA00BF0E49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DBE505289953FA00BF0E49 /* SceneDelegate.swift */; };
 		61DBE508289953FA00BF0E49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DBE507289953FA00BF0E49 /* ViewController.swift */; };
@@ -17,6 +21,7 @@
 		61DBE51E289953FA00BF0E49 /* Netlix_CloneAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DBE51D289953FA00BF0E49 /* Netlix_CloneAppTests.swift */; };
 		61DBE528289953FA00BF0E49 /* Netlix_CloneAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DBE527289953FA00BF0E49 /* Netlix_CloneAppUITests.swift */; };
 		61DBE52A289953FA00BF0E49 /* Netlix_CloneAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DBE529289953FA00BF0E49 /* Netlix_CloneAppUITestsLaunchTests.swift */; };
+		61DBE53828997CDA00BF0E49 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DBE53728997CDA00BF0E49 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		61338EEC289BA79A00D5D00B /* MovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
+		61338EEE289BA99200D5D00B /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		614254E4289AB5CE00CAA465 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		614254E6289AED1600CAA465 /* NetworkServiceEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceEndpoint.swift; sourceTree = "<group>"; };
 		61DBE500289953FA00BF0E49 /* Netlix-CloneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netlix-CloneApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61DBE503289953FA00BF0E49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61DBE505289953FA00BF0E49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +60,7 @@
 		61DBE523289953FA00BF0E49 /* Netlix-CloneAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Netlix-CloneAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61DBE527289953FA00BF0E49 /* Netlix_CloneAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netlix_CloneAppUITests.swift; sourceTree = "<group>"; };
 		61DBE529289953FA00BF0E49 /* Netlix_CloneAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netlix_CloneAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		61DBE53728997CDA00BF0E49 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +88,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		61338EEB289BA78D00D5D00B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				61338EEC289BA79A00D5D00B /* MovieResponse.swift */,
+				61338EEE289BA99200D5D00B /* MovieModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		614254E3289AB5B700CAA465 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				614254E4289AB5CE00CAA465 /* NetworkService.swift */,
+				614254E6289AED1600CAA465 /* NetworkServiceEndpoint.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		61DBE4F7289953FA00BF0E49 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +129,9 @@
 		61DBE502289953FA00BF0E49 /* Netlix-CloneApp */ = {
 			isa = PBXGroup;
 			children = (
+				61338EEB289BA78D00D5D00B /* Model */,
+				614254E3289AB5B700CAA465 /* Service */,
+				61DBE53628997B9500BF0E49 /* Managers */,
 				61DBE503289953FA00BF0E49 /* AppDelegate.swift */,
 				61DBE505289953FA00BF0E49 /* SceneDelegate.swift */,
 				61DBE507289953FA00BF0E49 /* ViewController.swift */,
@@ -128,6 +159,14 @@
 				61DBE529289953FA00BF0E49 /* Netlix_CloneAppUITestsLaunchTests.swift */,
 			);
 			path = "Netlix-CloneAppUITests";
+			sourceTree = "<group>";
+		};
+		61DBE53628997B9500BF0E49 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				61DBE53728997CDA00BF0E49 /* NetworkManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,9 +300,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61338EEF289BA99200D5D00B /* MovieModel.swift in Sources */,
 				61DBE508289953FA00BF0E49 /* ViewController.swift in Sources */,
+				614254E7289AED1600CAA465 /* NetworkServiceEndpoint.swift in Sources */,
 				61DBE50E289953FA00BF0E49 /* Netlix_CloneApp.xcdatamodeld in Sources */,
 				61DBE504289953FA00BF0E49 /* AppDelegate.swift in Sources */,
+				61DBE53828997CDA00BF0E49 /* NetworkManager.swift in Sources */,
+				61338EED289BA79A00D5D00B /* MovieResponse.swift in Sources */,
+				614254E5289AB5CE00CAA465 /* NetworkService.swift in Sources */,
 				61DBE506289953FA00BF0E49 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
