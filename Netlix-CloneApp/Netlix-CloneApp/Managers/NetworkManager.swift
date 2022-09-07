@@ -13,7 +13,7 @@ protocol Requestable {
     func request<T: Codable>(_ req: NetworkRequest) -> AnyPublisher<T, NetworkError>
 }
 
-class NetworkManager: Requestable {
+public class NetworkManager: Requestable {
     var requestTimeOut: Float = 30
     
     func request<T>(_ req: NetworkRequest) -> AnyPublisher<T, NetworkError> where T : Decodable, T : Encodable {
@@ -38,7 +38,6 @@ class NetworkManager: Requestable {
             }
             .eraseToAnyPublisher()
     }
-    
 }
 
 public struct NetworkRequest {

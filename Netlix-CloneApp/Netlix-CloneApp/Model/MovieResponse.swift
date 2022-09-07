@@ -8,6 +8,6 @@
 import Foundation
 
 struct MovieResponse: Codable {
-    let results: [Title]
+    let results: [MovieModel]?
 }
 

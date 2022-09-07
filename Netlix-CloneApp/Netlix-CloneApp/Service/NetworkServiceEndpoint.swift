@@ -10,6 +10,12 @@ import Combine
 
 public typealias Headers = [String: String]
 
+fileprivate enum Constants {
+    static let API_KEY = "e91439e7ba17b8aa0f34d3f239ee24cc"
+    static let YoutubeAPI_KEY = "AIzaSyBvkERE3NbIyFcw0wDdstZMyGarOrQQzE4"
+    static let YoutubebaseURL = "https://youtube.googleapis.com/youtube/v3/search?"
+}
+
 enum NetworkServiceEndpoints {
     
     case getTrendingMovies
@@ -19,7 +25,7 @@ enum NetworkServiceEndpoints {
     case getTopRated
     case getDiscoverMovies
     case getSearchMovies
-    case getMovie
+    case getMovie(query: String)
     
     var requestTimeOut: Int {
         return 20
@@ -62,24 +68,24 @@ enum NetworkServiceEndpoints {
     func getUrl(from environment: Environment ) -> String {
         let baseUrl = environment.networkServiceEnvironment
         switch self {
-        case .getMovie:
-            return baseUrl
+        case .getMovie(let query):
+            guard let query = query.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed) else { return ""}
+            return "\(Constants.YoutubebaseURL)q=\(query)&key=\(Constants.YoutubeAPI_KEY)"
         case .getTrendingMovies:
-            return baseUrl
+            return "\(baseUrl)/3/trending/movie/day?api_key=\(Constants.API_KEY)"
         case .getTrendingTvs:
-            return baseUrl
+            return "\(baseUrl)/3/trending/tv/day?api_key=\(Constants.API_KEY)"
         case .getUpcomingMovies:
-            return baseUrl
+            return "\(baseUrl)/3/movie/upcoming?api_key=\(Constants.API_KEY)&language=en-US&page=1"
         case .getPopular:
-            return baseUrl
+            return "\(baseUrl)/3/movie/popular?api_key=\(Constants.API_KEY)&language=en-US&page=1"
         case .getTopRated:
-            return baseUrl
+            return "\(baseUrl)/3/movie/top_rated?api_key=\(Constants.API_KEY)&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_watch_monetization_types=flatrate"
         case .getDiscoverMovies:
-            return baseUrl
+            return "\(baseUrl)/3/discover/movie?api_key=\(Constants.API_KEY)&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_watch_monetization_types=flatrate"
         case .getSearchMovies:
-            return baseUrl
+            return ""
         }
-        
     }
 }
     public enum Environment: String, CaseIterable {
@@ -94,7 +100,6 @@ enum NetworkServiceEndpoints {
                 return "https://api.themoviedb.org"
             case .production:
                 return ""
-            
             }
         }
     }
